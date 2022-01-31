@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body{
+            background: #83a4d4;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .btn{
+            width: 80px;
+            height: 50px;
+            font-size: 10px;
+            text-align: center;
+            border-radius: 9px !important;
+            overflow: hidden;
+        }
+
+        .col{
+            margin: 20px !important;
+        }
+
+        h1 {
+            text-shadow: 2px 2px #83a4d4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center text-white title">
+        <div class="m-4">
+            <h1>WELCOME TO API's</h1>
+            <small> <a style="text-decoration: none; color:white !important;" href="https://github.com/Digovil" target="_blank">for Dilan G. Vidal</a> </small>
+        </div>
+    </div>
+    <div class="container vh-70 "> 
+        <div class="row d-flex justify-content-center"> 
+                <div class="col m-5 d-flex justify-content-center">
+                
+                    <button type="button" class="btn btn-primary shadow-sm" id="notificar">Notificarme</button>
+                </div>
+                <div class="col m-5 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary shadow-sm" id="verNotificacion">Ver Notificación</button>
+    
+                </div>
+                <div class="col m-5 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary shadow-sm" id="abrir-pantalla-completa">Full Screen</button>
+    
+                </div>
+                <div class="col m-5 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary shadow-sm" id="salir-pantalla-completa">Salir de Full Screen</button>
+    
+                </div>
+                <div class="col m-5 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary shadow-sm" id="microfono">Speech Recognition</button>
+    
+                </div>
+                <div id="salida" class="ocultar"></div>
+                <div class="mb-3">
+                    
+                    <textarea class="form-control" maxlength="20" id="textArea"  rows="4" style="resize: none;"></textarea>
+                </div>   
+        </div>
+
+    </div>
+
+    <script src="js/01-scripts.js"></script>
+    <script src="js/02-scripts.js"></script>
+    <script src="js/03-scripts.js"></script>
+    <script src="js/04-scripts.js"></script>
+    <script src="js/05-scripts.js"></script>
+</body>
+</html>

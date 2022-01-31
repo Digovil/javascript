@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStorage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .contenedor{
+            background-color: rgba(61, 60, 60, 0.068);
+        }
+
+        .mensaje{
+            width: 18rem; 
+            height: 18rem; 
+            border-radius: 9px !important;
+        }
+
+        .centrar{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .centrar >h5, 
+        .centrar >small{
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="vh-100 contenedor">
+        <div class="shadow-lg p-3 mb-5 bg-body rounded mensaje centrar">
+            <div class="centrar">
+                <h5 class="text-info">Web Storage</h5>
+                <small>Permiten guardar pares de clave/valor en el navegador.</small>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/01-scripts.js"></script>
+
+
+</body>
+</html>

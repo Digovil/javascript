@@ -1,0 +1,41 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint 00.Fundamentos/Basic.js --fix",
+    "basic": "nodemon 00.Fundamentos/Basic.js",
+    "callbacks": "nodemon  03.Intermedio/01.callbacks.js",
+    "promises": "nodemon 03.Intermedio/02.promises.js",
+    "async-await": "nodemon 03.Intermedio/03.async-await.js",
+    "async-await2": "nodemon 03.Intermedio/04.async-await.js",
+    "iife": "nodemon 03.Intermedio/05.iife.js",
+    "fecha": "nodemon 03.Intermedio/06.fecha.js",
+    "repaso":"nodemon 06.Prototypes/01.repaso.js",
+    "problema":"nodemon 06.Prototypes/02.problema.js",
+    "prototype":"nodemon 06.Prototypes/03.prototype.js",
+    "heredar":"nodemon 06.Prototypes/04.heredar.js",
+    "clases":"nodemon 07.POO/01.clases.js",
+    "metodos":"nodemon 07.POO/02.metodos.js",
+    "herencia":"nodemon 07.POO/03.herencia.js",
+    "modificadores-acceso":"nodemon 07.POO/04.modificadores-acceso.js",
+    "set":"nodemon 08.SetsMapsSymbols/01.set.js",
+    "weakset":"nodemon 08.SetsMapsSymbols/02.weakset.js",
+    "maps":"nodemon 08.SetsMapsSymbols/03.maps.js",
+    "weakmaps":"nodemon 08.SetsMapsSymbols/04.weakMaps.js",
+    "symbols":"nodemon 08.SetsMapsSymbols/05.symbols.js",
+    "iteradores":"nodemon 08.SetsMapsSymbols/06.iteradores.js",
+    "generadores":"nodemon 08.SetsMapsSymbols/07.generadores.js",
+    "iteradores2":"nodemon 08.SetsMapsSymbols/08.iteradores.js"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "nodemon": "^2.0.15"
+  }
+}
