@@ -37,10 +37,10 @@
     se puede utilizar antes ya que con el hoisting las declaraciones se mueven al principio,
     en cambio la de expresión no.
     
-# LINKS
+# LINKS DE PAGINAS CREADAS
  
-- https://digovil-miviaje.netlify.app/
-- https://digovil-micarrito.netlify.app/
-- https://digovil-matchname.netlify.app/
-- https://digovil-api.netlify.app/
-- https://digovil-webstorage.netlify.app/
+- <a href="https://digovil-miviaje.netlify.app/" target="_blank">Mí Viaje</a>
+- <a href="https://digovil-micarrito.netlify.app/">Mí Carrito</a>
+- <a href="https://digovil-matchname.netlify.app/">Matchname</a>
+- <a href="https://digovil-api.netlify.app/">API</a>
+- <a href="https://digovil-webstorage.netlify.app/">WebStorage</a>
