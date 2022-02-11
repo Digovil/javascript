@@ -39,7 +39,7 @@
     
 # LINKS DE PAGINAS CREADAS
  
-- <a href="https://digovil-miviaje.netlify.app/" target="_blank">Mí Viaje</a>
+- <a href="https://digovil-miviaje.netlify.app/">Mí Viaje</a>
 - <a href="https://digovil-micarrito.netlify.app/">Mí Carrito</a>
 - <a href="https://digovil-matchname.netlify.app/">Matchname</a>
 - <a href="https://digovil-api.netlify.app/">API</a>
