@@ -150,7 +150,7 @@ let obj1D = {nombre  : "Dilan"},
 console.log(obj1D);
 console.log(obj2D);
 
-//Uniendo dos objetos
+//Uniendo dos objetos o copiar
 console.log(Object.assign(obj1D,obj2D));
 
 //spread operator o rest operator (los ... significa asigna y copia)
